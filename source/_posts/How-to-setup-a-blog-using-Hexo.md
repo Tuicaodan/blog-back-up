@@ -6,8 +6,6 @@ tags: [Hexo,blog]
 categories: Hexo
 description:
 ---
-# How to install Hexo
-
 ### The story
 
 I keep listening about how important a developer should have a tech blog. A tech blog could both benefit other people and me. After wasting a couple of months to do so, I finally take my step. 
@@ -67,7 +65,7 @@ Here is the quote from Hexo website:
 
 - I had some issues with Hexo installation. After installation, the `hexo -v` command will return this error: `command not found: hexo`.
 - A little background story: I changed the location of npm global packages since I want to avoid using `sudo` for npm packages installation.
-- So I believe the problem that I cannot run `hexo` command is because of the changes in the global package's location.
+- So I believe the problem that I cannot run `hexo` command is because of the changes in the environment variables.
 
 #### The solution
 
