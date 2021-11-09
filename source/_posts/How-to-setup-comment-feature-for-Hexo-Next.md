@@ -12,6 +12,10 @@ This is a tutorial for setting up the comment feature for Hexo + Next. There are
 
 <!--more-->
 ____
+### 2021-11-09 Updates 
+I found the Valine might have some conflicts with either the Next theme or multiple levels of headings in Markdown. When I have two or more levels of headings， after deployment, the Valine comment section will disappear. By checking the console, I found the error is `Uncaught TypeError: Valine is not a constructor`. Couldn't find any similar situation or solution yet. Well, it was fun while it didn't have the bug. So, at least for now, I have to switch to Disqus.
+
+____
 ## Disqus
 
 - Create a Disqus account. Choose the I want to use "Disqus on my site" option.
@@ -108,7 +112,7 @@ ____
 By default, the post header looks like this:
 ![comment title](https://i.imgur.com/WRJzAVX.png)
 
-I think the word "Comment" is make more sense than " Valine". Here is the solution:
+I think the word "Comment" makes more sense than " Valine". Here is the solution:
 
 - Find the `valine.js` file in `/themes/next/scripts/filters/comment/valine.js`
 - Find this line in the file:
