@@ -6,11 +6,11 @@ tags: [Hexo, blog, NexT]
 categories: Hexo
 description:
 ---
-The Hexo came with a default theme which is okay. You can design your own theme or use other users' designs if you want to make it easy. Currently, there are more than 300+ themes posted [here]([https://hexo.io/themes/](https://hexo.io/themes/)). I found some of the themes were stopped to update by the authors a couple of years ago. One of the parameters when I picked the theme, one of the parameters is that the last update should be within a year ago. So there might be less possibility of compatible issues with the newer versions of Hexo. 
+The Hexo comes with a default theme which is okay. You can design your own theme or use other users' designs if you want to make it easy. Currently, there are more than 300+ themes posted [here](https://hexo.io/themes/). I found some of the themes were stopped to update by the authors a couple of years ago. One thing I remind myself when picking the theme is to check whether the last update is within one year. Because there might be less compatible issues with the newer versions of Hexo. 
 
 <!--more-->
 
-I decided to go with the NexT theme since it really aligns with my minimalism guideline. Here is the [repo]([https://github.com/theme-next/hexo-theme-next](https://github.com/theme-next/hexo-theme-next)). 
+I decided to go with the NexT theme since it was updated five months ago and also really aligns with my minimalism aethestic standard. Here is the [repo](https://github.com/theme-next/hexo-theme-next). 
 
 ## How to install NexT
 

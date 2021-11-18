@@ -1,5 +1,5 @@
 ---
-title: tags
+title: 
 type: "tags"
 comments: false
 ---

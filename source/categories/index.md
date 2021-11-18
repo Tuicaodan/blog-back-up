@@ -1,5 +1,5 @@
 ---
-title: categories
+title: 
 type: "categories"
 comments: false
 ---
